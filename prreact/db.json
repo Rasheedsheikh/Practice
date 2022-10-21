@@ -1,0 +1,42 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "learn mern",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "learn css",
+      "status": false,
+      "id": 4
+    },
+
+    {
+      "title": "learn git",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "new",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "learn node",
+      "status": false,
+      "id": 8
+    },
+
+    {
+      "title": "learn full stack",
+      "status": false,
+      "id": 10
+    }
+    
+  ]
+}

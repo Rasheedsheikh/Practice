@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import SetTimeOut from './Concepts/SetTimeOut';
+import Fetch from './Concepts/Fetch';
+import Counter from './Counter/Counter';
+import {FormPost} from './Concepts/FormPost';
+import New from './Concepts/New';
+import Todo from './Todo/Todo';
+import OnMouseMove from './Events/OnMouseMove';
+import Form from './Form/Form';
+import Todos from './UseEff/Todos';
+import Timer from './UseEff/Timer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/* <Todo/> */}
+   <OnMouseMove/>
+   <Form/>
+{/* <Counter/> */}
+    {/* <SetTimeOut/>
+ <Fetch/>
+<FormPost/>  */}
+<Todos/>
+{/* <New/> */}
+<Timer/>
     </div>
   );
 }
