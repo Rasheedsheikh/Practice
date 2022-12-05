@@ -10,20 +10,27 @@ import OnMouseMove from './Events/OnMouseMove';
 import Form from './Form/Form';
 import Todos from './UseEff/Todos';
 import Timer from './UseEff/Timer';
+import Toggle from './UseEff/Toggle';
+import Todoss from './UseEff/Todoss';
+import Normalrender from './Concepts/Normalrender';
 
 function App() {
   return (
     <div className="App">
+       {/* <Fetch/> */}
    {/* <Todo/> */}
-   <OnMouseMove/>
-   <Form/>
+   {/* <OnMouseMove/>
+   <Form/> */}
 {/* <Counter/> */}
     {/* <SetTimeOut/>
- <Fetch/>
+
 <FormPost/>  */}
-<Todos/>
+{/* <Todos/> */}
 {/* <New/> */}
-<Timer/>
+{/* <Timer/> */}
+{/* <Toggle/>
+<Todoss/> */}
+<Normalrender/>
     </div>
   );
 }

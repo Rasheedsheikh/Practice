@@ -11,7 +11,9 @@ const Form = () => {
         setForm({
             ...form,
             [name]:value
-
+// ikkada name ki enduku square brackets pettam antey 
+// ikkda name value anevi key value avi rendu variables ey ainappudu error chupisthadhi
+// anduke key ni suare bracket lo wrap chesam
         })
 
     }

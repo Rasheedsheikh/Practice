@@ -31,12 +31,16 @@ useEffect(()=>{
 
 //    Show()
   },[])
+
+
   return(
     <div>
   {data.map((el)=>(
     <div>{el.title}</div>
   )
   )}
+   
+   
     </div>
   )
 
