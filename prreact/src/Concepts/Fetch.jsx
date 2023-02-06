@@ -4,6 +4,8 @@ const Fetch=()=>{
 
   const [data, setdata]= useState([])
 
+
+  
 //   const show= async()=>{
 //     try{
 //       let res= await fetch("https://jsonplaceholder.typicode.com/todos")
